@@ -12,6 +12,10 @@ $conexao=mysqli_connect(
     $banco
 );
 
+echo "<pre>";
+print_r($_POST);
+echo "</pre>";
+
 $sql="select * from contatos";
 
 $resultado = mysqli_query($conexao,$sql);
