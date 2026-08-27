@@ -1,9 +1,9 @@
 <?php
 
-   $servidor = "localhost";
-$usuario = "root";
-$senha = "";
-$dbname = "agenda";
+    $host ="localhost";
+    $usuario ="root";
+    $senha ="";
+    $banco ="agenda";
 
 $conexao=mysqli_connect(
     $host,
@@ -11,8 +11,6 @@ $conexao=mysqli_connect(
     $senha,
     $banco
 );
-
-
 
 $sql="select * from contatos";
 
