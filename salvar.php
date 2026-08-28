@@ -1,9 +1,9 @@
 <?php
 
-  $servidor = "localhost";
-$usuario = "root";
-$senha = "";
-$dbname = "agenda";
+    $host ="sql304.infinityfree.com";
+    $usuario ="if0_42268756";
+    $senha ="8HvdIImZiyp";
+    $banco ="if0_42268756_agenda";
 
 $conexao=mysqli_connect(
     $host,
