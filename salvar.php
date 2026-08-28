@@ -20,12 +20,12 @@ echo "</pre>";
 if(!$conexao){
     die("erro na conexão".mysqli_connect());
 }else{
-    $nome = $_POST['NOME'];
-    $telefone = $_POST['TELEFONE'];
+    $NOME = $_POST['NOME'];
+    $TELEFONE = $_POST['TELEFONE'];
 }
 
 $sql = "INSERT INTO contatos(NOME,TELEFONE)
-VALUES('$nome','$telefone')";
+VALUES('$NOME','$TELEFONE')";
 
     if(mysqli_query($conexao,$sql)){
         echo "contato salvo com sucesso!";
